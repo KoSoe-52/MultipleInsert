@@ -2,8 +2,15 @@
 	#####################################################
 	######## DB TABLE's columns ARE id,name,email #########
 	#####################################################
+	/*
+	CREATE TABLE `test` (
+	  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	  `name` varchar(40) DEFAULT NULL,
+	  `email` varchar(40) DEFAULT NULL
+	) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+	*/
 	$hostname="localhost";
-	$dbname="adjutant20_8_2020";
+	$dbname="";
 	$user="root";
 	$pass="";
 	try{
